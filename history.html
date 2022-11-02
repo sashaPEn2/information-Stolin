@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Информативный Столин</title>
+  <title>История Столина</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="https://i.ytimg.com/vi/b6qnf8aQxTo/maxresdefault.jpg" rel="icon">
-  <link href="https://i.ytimg.com/vi/b6qnf8aQxTo/maxresdefault.jpg" rel="apple-touch-icon">
+  <link href="assets/img/Coat_of_Arms_of_Stolin,_Belarus.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
@@ -43,12 +43,6 @@
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:sashanevdah2010@gmail.com">sashanevdah2010@gmail.com</a></i>
       </div>
-     <!--<div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>-->
     </div>
   </section><!-- End Top Bar-->
 
@@ -57,28 +51,36 @@
     <div class="container d-flex justify-content-between">
 
       <div id="logo">
-        <h1><a href="index.html">Информативный <span> Столин</span></a></h1>
+        <h1><a href="index.html">Информативный<span> Столин</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
-          <li><a class="nav-link scrollto" href="#about">Проект</a></li>
-          <li><a class="nav-link scrollto" href="https://polese.by">Новости</a></li>
-          <li class="dropdown"><a href="#"><span>Карты</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto " href="index.html">Главная</a></li>
+          <li><a class="nav-link scrollto" href="#">История</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="https://yandex.ru/maps/?um=constructor%3A370c9dffa6bd7b61204270e3cdc86d952c03fc5d0e16df4a8a254a0af52350d5&source=constructorLink">Достопримечательности </a></li>
-              <li><a href="https://yandex.by/maps/101405/stolin/?l=sat%2Cskl&ll=26.856748%2C51.895080&mode=usermaps&source=constructorLink&um=constructor%3Ace540b77ba47a54ef194f63cc97c17356c2f08933370b22156165b30392b18b3&z=14">Банки</a></li>
-              <li><a href="https://yandex.by/maps/101405/stolin/?l=sat%2Cskl&ll=26.846757%2C51.892886&mode=usermaps&source=constructorLink&um=constructor%3A02f293b64cf21dab3ed76a08348a60efa8630d5db5fe6fd96f3af76fc400032b&z=13">Магазины</a></li>
-              <li><a href="https://yandex.by/maps/101405/stolin/?ll=26.851501%2C51.889267&mode=usermaps&source=constructorLink&um=constructor%3A9e3facc48d344d50d7b575adaac566c17e29fc27b08f89cbeb0702e535977df7&z=16.71">Торговые центры</a></li>
-              <li><a href="https://yandex.ru/maps/?um=constructor%3A96b524d530746139e8b08f35fc78e2288a9472f931bdb7b17c9798aa6d9725d8&source=constructorLink">Гостиницы </a></li>
-           <li><a href="https://yandex.by/maps/101405/stolin/?ll=26.844381%2C51.886444&mode=usermaps&source=constructorLink&um=constructor%3Abd84dd2489903a0243ac0df4bce16994c416ac38781ee2f14b2bdb693804b2d4&z=14.96">Кафе, рестораны и бары </a></li>
-          <li><a href="https://yandex.by/maps/?um=constructor%3A7895b12cd455331b7ffd37f3a0c1334dd77affcece69ef801def9194a713bb54&source=constructorLink">Больница</a></li>  
-          <li><a href="https://yandex.by/maps/101405/stolin/search/аптеки%20столина/?ll=26.860084%2C51.893138&sctx=ZAAAAAgCEAAaKAoSCQJiEi7k2TpAEXvdIjDW8UlAEhIJEsE4uHTMtT8RCklm9Q63oz8iBgABAgQFBigKOABAnZgGSAFiPHJlbGV2X3JhbmtpbmdfaGVhdnlfcmVsZXZfc2VycF9mb3JtdWxhPTAuNjA6bDNfZm1sODYwNjkyX2V4cGIgYWRkX3NuaXBwZXQ9c2tpX2RhdGFfdG9fMW9yZy8xLnhiG2FkZF9zbmlwcGV0PWF2aWFfcHJpY2VzLzEueGIsYWRkX3NuaXBwZXQ9YnVzaW5lc3NfYXdhcmRzX2V4cGVyaW1lbnRhbC8xLnhiHGFkZF9zbmlwcGV0PW1haW5fYXNwZWN0cy8xLnhiPHJlbGV2X3JhbmtpbmdfaGVhdnlfcmVsZXZfbWFwc19mb3JtdWxhPTAuNjA6bDNfZm1sODYwNjkyX2V4cGIVcmVsZXY9Z2xvYmFsX3RocmVzaD0wYhJyZWxldj1yZWxldmdlbz0xNTNiHXJlbGV2PXNlYXJjaF90ZXh0X2V4cF9uYW1lPXYxYjByZWFycj1zY2hlbWVfTG9jYWwvR2VvdXBwZXIvQWRkRml4ZWRUb3BHZW9qc29uPTFiN3JlYXJyPXNjaGVtZV9Mb2NhbC9HZW8vUmVxdWVzdFVnY0ZvclBvc3NpYmxlT3duZXJzPXRydWVqAmJ5lQEAAAAAnQHNzEw%2BoAEAqAEAvQHa020hwgEihOuLqATTkd6D2wGO2p3roAaQ0riWBY7axtaMBqrj58inAuoBAPIBAPgBAIICG9Cw0L%2FRgtC10LrQuCDRgdGC0L7Qu9C40L3QsIoCCTE4NDEwNTkzMpICBjEwMTQwNZoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=26.860084%2C51.893138&source=wizbiz_new_map_multi&sspn=0.078621%2C0.035580&z=14">Аптеки</a></li>  
-
-          <li><a class="nav-link scrollto" href="#contact">Обратная связь</a></li>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -86,95 +88,107 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= hero Section ======= -->
-  <section id="hero">
-
-    <div class="hero-content" data-aos="fade-up">
-      <h2><span>История</span>Столина<br></h2>
-      <div>
-        <a href="#about" class="btn-get-started scrollto">Начать читать</a>
-        <!-- <a href="#portfolio" class="btn-projects scrollto">Our Projects</a> -->
-      </div>
-    </div>
-
-    <div class="hero-slider swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/1.jpg');"></div>
-        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/2.jpg');"></div>
-        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/3.jpg');"></div>
-        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/4.jpg');"></div>
-        <div class="swiper-slide" style="background-image: url('assets/img/hero-carousel/5.jpg');"></div>
-      </div>
-    </div>
-
-  </section><!-- End Hero Section -->
-
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-6 about-img">
-            <img src="https://polese.by/wp-content/uploads/2020/10/fad48649b05f91231cd5c89afc5745cf.jpg" alt="">
-          </div>
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
 
-          <div class="col-lg-6 content">
-            <h2>Проект - Информативный Столин</h2>
-            <h3>Первый и маcштабный проект Makers_OF_Bot_and_Site. Есть сайт и телеграмм бот этого проекта</h3>
-
-            <ul>
-              <li> <a href="https://t.me/information_Stolin_bot">Telegram-бот "Информативный Столин"</a></li>
-              <li><i class="bi bi-check-circle"></i>Проект создан для гостей и жителей города Столина</li>
-              <li><i class="bi bi-check-circle"></i> Специально для этого проекта было <a href="#clients">создано 9 карт про Столин </li>
-            </ul>
-
-          </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>История Столина</h2>
+          <ol>
+            <li><a href="index.html">Главная</a></li>
+            <li>История Столина</li>
+          </ol>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h2>О проекте "Информативный Столин"</h2>
-          <p>Проект создан для гостей города Столина. С помощью бота или этого сайта можно находить информацию о Столине. Мы создали карты, котрые помогут вам найти необходимые места. В будущем проект будет переделан под весь Столинский район, потому что в самом большом районе Беларуси есть на что посмотреть.</p>
-        </div>
+    <section class="inner-page pt-4">
+      <div class="container">
+        <p>
+          Первое письменное упоминание о местечке Столин найдено в Писцовой книге Пинского и Клецкого княжеств и датируется 1555 г. Однако, по мнению ряда археологов, город имеет более древние корни, на что указывает более ранний сохранившийся культурный слой на обрывистом берегу реки Горынь. В XII – XIII вв. территория района входила в состав Турово-Пинского княжества, с середины XIV в. – в состав Великого княжества Литовского.
+          
+        </p>
+        <center><img src="https://tutejszy.ru/images/phocagallery/Brestskaja/stolinski/stolin/stolin5.jpg" width="550px"></center>
+        <p>
+          В XVI в. Столин - частнособственническое местечко, принадлежало магнатам Соломорецким, Вишневецким, Пацам, Солтанам, Скирмунтам, Стаховским. В 1569 г. между Польшей и ВКЛ была заключена Люблинская уния, и территория современной Столинщины вошла в состав Речи Посполитой. В XVII в. Столинщина стала ареной жестокой борьбы между украинскими казаками, к которым присоединились и местные православные жители, и войсками Речи Посполитой. Восстание 1648-1649 гг. было жестоко подавлено. Военные действия во время войны 1654-1667 гг. между Россией и Речью Посполитой снова затронули Столинщину. В 1655 г. Столин был захвачен и сожжен в ходе рейда русского отряда под командованием князя Д. Волконского. В то время Столин являлся небольшим местечком с тремя-четырьмя десятками жилых домов, с населением в 300 человек. После военных событий, произошедших в середине XVIII в., когда феодальная Речь Посполитая стояла на краю гибели и вела непрерывные войны - с Россией, Швецией, турками, татарами, Столин пришёл в упадок. Город стал пробуждаться и восстанавливать былую значимость в конце XVIII в. В 1792-1793 гг. Столин становится центром Запинского повета Брестского воеводства. В 1792 г. он стал местом сеймиковых съездов, которые были перенесены из Мозыря, занятого Россией.
+          </p>
+          <p>
+            В 1793 г. после второго раздела Речи Посполитой Столинщина вошла в состав Российской империи. В 1795 г. Столин становится волостным центром Пинского уезда Минской губернии.
+            </p>
+            <center><img src="https://tutejszy.ru/images/phocagallery/Brestskaja/stolinski/stolin/stolin13.jpg" width="550px"></center>
+         
+          <p>
+            В 1886 г. в Столине насчитывался 121 двор, где проживало 815 человек, действовали церковь, синагога, еврейские молитвенные дома, часовня, волостное управление, земское народное училище, конная почтовая станция, винокуренный и чайный заводы, корчма, 20 лавок. Население занималось земледелием и животноводством, рыбной ловлей, лесозаготовками. Согласно переписи 1897 г. в Столине было уже 250 дворов, количество жителей возросло до 3,3 тысяч. В начале XX в. в местечке на 471 двор насчитывалось 4,7 тыс. жителей.
+            </p>
+            <p>
+              Экономическому развитию региона поспособствовало строительство железнодорожной ветки Лунинец-Ровно, которая пересекла край с юга на север, что стало значительным событием в жизни Столинщины.
+              </p>
+              <center><img src="https://tutejszy.ru/images/phocagallery/Brestskaja/stolinski/stolin/stolin_davyd-haradockaja.__-_1919-39.jpg" width="550px"></center>
+            <p>
+              Большое влияние на развитие Столина оказывало также соседство с имением магнатов Радзивиллов, которое находилось в деревне Маньковичи неподалеку от городка. В 1885 г. в имении был заложен пейзажный парк. Несколько позже возведен великолепный дворец, разрушенный в годы Второй мировой войны. Последний владелец имения Кароль Николай Радзивилл управлял им вплоть до 1939 г. В ноябре 1917 г. в Столине была установлена советская власть. С февраля 1918 по декабрь 1919 г. город оккупирован немецкими войсками. Согласно Рижскому мирному договору 1921 г. Столин вошел в состав Польской Республики. 6 декабря 1925 г. был образован Столинский повет в составе Полесского воеводства.
+              </p>
+            <center><img src="https://tutejszy.ru/images/phocagallery/Brestskaja/stolinski/stolin/stolin2.jpg" width="550px"></center>
+            <p>
+              В сентябре 1939 г. Столинский район вошел в состав БССР. К 1941 г. в Столине проживало 12500 человек. 6 июля 1941 г. Столин был оккупирован немецко-фашистскими захватчиками. Фашистская оккупация продолжалась до 7 июля 1944г.
+              </p>
+              <p>
+                На территории Столинского района зафиксировано около 150 археологических памятников, которые представлены селищами, могильниками и отдельными находками.
+                </p>
+          <p>
+            В разное время исследования археологических памятников на территории Столинщины проводили В.С. Вергей, М.М. Кривольцевич, Ю.В. Кухаренко и И.П. Русанова. На территории города Столина найдены следы древней стоянки эпохи неолита и бронзы, средневекового поселения, которые проникают и в восточную часть города, на берегу р. Горынь, от дороги на д. Струга до площади перед исполкомом. Найдены каменный сверленый топор, подвеска из гальки, кремневые изделия.
+          </p>
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <div class="icon"><i class="bi bi-phone"></i></div>
-              <h4 class="title"><a href="https://t.me/information_Stolin_bot">Telegram-бот</a></h4>
-              <p class="description">Для этого проекта был создан telegram-бот. В нем можно найти всю инфрормацию о Столине</p>
-            </div>
           </div>
+    </section>
+<section class="breadcrumbs">
+      <div class="container">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="#">Сайт проекта "Информативный Столин"</a></h4>
-              <p class="description">Сайт создан специально чтобы узнавать информацию про Столин с помощью интернет-браузера.</p>
-            </div>
-          </div>
-
-    
-
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>ЛЕГЕНДЫ О ПРОИСХОЖДЕНИИ НАЗВАНИЯ</h2>
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Breadcrumbs Section -->
+  </main><!-- End #main -->
+  <section class="inner-page pt-4">
+    <div class="container">
+      <p>
+        Когда-то на месте города существовало большое озеро, в котором однажды выловили 100 линей. По реке Горынь располагалось 7 городков, в которых княжило 12 братьев. Их место собрания, то есть стол, за которым собирались братья-княжичи находился на месте современного Столина. Место древнего города находилось на левом берегу р. Копанец, в районе хлебозавода. В переводе с древнеиндийского языка это слово обозначает возвышение, земляную насыпь, а так как древний Столин располагался на высоком обрывистом берегу старицы р. Горынь, р. Копанец, то высокий речной берег мог обусловить и происхождение названия города. Недалеко от аграрно-экономического колледжа в парке «Маньковичи» нашли обработанный кремень и лепную керамику зарубинецкой культуры.
+      </p>
+     </div>
+     <section class="breadcrumbs">
+      <div class="container">
 
-   
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>ГРАДОСТРОИТЕЛЬСТВО</h2>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+  </main><!-- End #main -->
+  <section class="inner-page pt-4">
+    <div class="container">
+      <p>
+       Формирование планировки города связывают со столинским помещиком (предположительно Стаховским), у которого были крепостные рабочие. Они жили недалеко от поместья, их амбары стояли рядом и тем самым образовывали форму улицы. Со временем эту улицу её жители-белорусы стали называть ул. Столинской, она протянулась до улицы, прежде называемой Выгонной, в последнее время это улица Полесская. Не будет преувеличением сказать, что Столин строили евреи, хотя они и не были первыми его жителями. Переселившись в Столин, они продолжили деревенскую улицу Столинка на запад, расселились вдоль реки с одной стороны и в противоположную сторону, к полям и окружили озеро. Чтобы его осушить или предотвратить наводнение, евреи вырыли канаву между озером и ручьём на границе с кладбищем. И действительно, озеро ушло, стало меньше и почти пересохло. Живущие рядом с озером стремились отвоевать у него территорию. Со временем еврейскими домами был окружён также и кладбищенский холм. В конце ХІХ столетия крестьяне-белорусы предпочитали селиться на окраине городка, позади еврейских домов, и расселились на территории от берега реки до полей и вдоль еврейского кладбища (на ул. Домбровича (современная ул. Горынская), ул. Кривая (современная ул. Дзержинского) и заняли несколько переулков). Здесь они построили свои дома, устроили подворья и хлевы, и только их поля находились вне города. К началу ХХ в. Столин как населенный пункт приобрел форму прямоугольника, расширяющегося к востоку. Улицы были прямые. Здания строились в большинстве своём из дерева, и постепенно стали возводиться дома из кирпича, но их количество было невелико. Под властью Польши (1920 - 1939 гг.) Столин продолжал развиваться и своим видом стал похож на большой красивый город с шоссе, тротуарами, красивыми зданиями, деревьями на улицах и т.д. Таким образом, городок рос и по занимаемой площади, и по количеству населения. В течение многих лет еврейское кладбище служило границей местечка с западной стороны, пока не появилось какое-то количество крестьян, которые поселились и позади кладбища по дороге ведущей из Столина к железнодорожной станции Горынь.
+      </p>
+     </div>
+
+
+
+
+
+
+
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Makers_OF_Bot_and_Site</strong>. All Rights Reserved
+        &copy; Copyright <strong>Информативный Столин</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
