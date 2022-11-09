@@ -128,7 +128,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 85px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
@@ -136,7 +136,7 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
